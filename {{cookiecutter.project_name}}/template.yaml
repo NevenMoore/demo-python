@@ -8,7 +8,7 @@ Resources:
             {%- elif cookiecutter.runtime == 'python3.6' %}
             Runtime: Python3.6
             {%- else %}
-            Runtime: Python3.7
+            Runtime: Python3.6
             {%- endif %}
             CodeUri: ./hello_world
             Description: This is a template function
