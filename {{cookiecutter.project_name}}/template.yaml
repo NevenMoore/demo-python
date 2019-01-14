@@ -4,11 +4,11 @@ Resources:
         Properties:
             Handler: main.main_handler
             {%- if cookiecutter.runtime == 'python2.7' %}
-            Runtime: python2.7
+            Runtime: Python2.7
             {%- elif cookiecutter.runtime == 'python3.6' %}
-            Runtime: python3.6
+            Runtime: Python3.6
             {%- else %}
-            Runtime: python3.7
+            Runtime: Python3.7
             {%- endif %}
             CodeUri: ./hello_world
             Description: This is a template function
