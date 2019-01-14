@@ -1,5 +1,5 @@
 Resources:
-    function1:
+    hello_world:
         Type: 'TencentCloud::Scf::Function'
         Properties:
             Handler: main.main_handler
